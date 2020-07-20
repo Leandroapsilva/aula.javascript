@@ -40,3 +40,42 @@ console.log(frase.replece("Brasil e o melhor time do mundo"));
 //Erro proposital//
 console.log(n1 + idade2) 
 
+//arrys e bibliotecas//
+
+var lista ["maça", "pera" , "laranja"];
+console.log(lista);
+console.log(lista[1]);
+
+//definir qual fruta vou quer na lisa//
+alert(lista[1]);
+alert(lista[3]);
+
+//para adicionar fruta na lisa//
+var lista ["maça", "pera" , "laranja"];
+lista.push("uva")
+console.log(lista[1]);
+
+//para retirar fruta na lisa//
+var lista ["maça", "pera" , "laranja"];
+lista.pop("uva")
+console.log(lista[1]);
+
+//contidade de itens na lista//
+console.log(lista.length);
+
+// elementos ao contrario na lista//
+console.log(lista.reverse);
+
+
+//arrey virando uma string//
+console.log(lista[0]);
+console.log(lista.tostring());
+console.log(lista.join(""))
+
+
+// define  fruta e cor da fruta na lista//
+var fruta = {nome: "maça" , cor: "vermelha'}
+console.log(fruta);
+alert(fruta.cor);
+
+
